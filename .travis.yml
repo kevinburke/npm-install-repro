@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "8"
+
+before_script:
+  - make bin/npm
+  - sha256sum var/src/v5.4.2.tar.gz
